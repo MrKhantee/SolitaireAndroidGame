@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright 2008 Google Inc.
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+       http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+  Modified by Curtis Gedak 2015
+  -->
+<resources>
+    <string name="app_name">Pirate Solitaire</string>
+    <string name="menu_bakersgame">Baker\'s Game</string>
+    <string name="menu_blackwidow">Single suit</string>
+    <string name="menu_fortythieves">Forty Thieves</string>
+    <string name="menu_freecell">Freecell</string>
+    <string name="menu_golf">Golf</string>
+    <string name="menu_klondike_dealone">Klondike (deal 1)</string>
+    <string name="menu_klondike_dealthree">Klondike (deal 3)</string>
+    <string name="menu_spider">Four suit</string>
+    <string name="menu_tarantula">Double suit</string>
+    <string name="menu_tripeaks">TriPeaks</string>
+    <string name="menu_vegas_dealone">Vegas (deal 1)</string>
+    <string name="menu_vegas_dealthree">Vegas (deal 3)</string>
+    <string name="menu_selectgame">Select Game</string>
+    <string name="menu_new">New Game</string>
+    <string name="menu_restart">Restart</string>
+    <string name="menu_options">Setting</string>
+    <string name="menu_stats">Stats</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_exit">Exit</string>
+    <string name="solitaire_layout_text_text"></string>
+    <string name="accept">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear Stats</string>
+    <string name="display_options">Display Options</string>
+    <string name="normal_cards">Normal Card Art</string>
+    <string name="big_cards">Large Card Art</string>
+    <string name="auto_move">Auto Move</string>
+    <string name="time_display">Time Display</string>
+    <string name="always">Always</string>
+    <string name="fling_only">Fling Only</string>
+    <string name="never">Never</string>
+    <string name="display_time">ON / OFF</string>
+    <string name="readme_header">README file from source code</string>
+    <string name="copying_header">COPYING file from source code</string>
+    <string name="toast_restart_invalid">Game over. Restart not available.</string>
+    <string name="toast_use_start_menu">Game over. Use menu to start new game.</string>
+    <string name="toast_no_undo_left">No undo left.</string>
+    <string name="splash_text">
+\n\n\n\n\n\n\n\n
+TIP:  Long press ^ at bottom center of screen for alternate menu.
+</string>
+    <string name="win_text">You Win!\n\nUse the menu to start a new game.</string>
+
+    <!-- Shown on the help window; argument is the version number of the SolitaireCG application -->
+    <string name="help_window_title">SolitaireCG %s Help</string>
+
+    <!-- Messages shown on the stats window -->
+
+    <!-- The argument is the pretty game name, such as "Klondike (Dealing Three)" or "Golf" -->
+    <string name="stats_for_game">%s Statistics</string>
+
+    <string name="stats_wins_and_attempts">Wins: %1$d Attempts: %2$d attempts</string>
+    <string name="stats_winning_percentage">Winning Percentage: %s%%</string>
+    <string name="stats_fastest_time">Fastest Time: %s</string>
+
+    <!-- The argument is the user's high score as an integer -->
+    <string name="stats_high_score">High Score: %s</string>
+
+    <!-- Each game's prettified, human-readable, formatted name -->
+    <string name="game_name_forty_thieves">Forty Thieves</string>
+    <string name="game_name_freecell">Freecell</string>
+    <string name="game_name_bakers_game">Baker\'s Game</string>
+    <string name="game_name_golf">Golf</string>
+    <string name="game_name_klondike_three_cards">Klondike Dealing Three Cards</string>
+    <string name="game_name_klondike_one_card">Klondike Dealing One Card</string>
+    <string name="game_name_vegas_three_cards">Vegas Dealing Three Cards</string>
+    <string name="game_name_vegas_one_card">Vegas Dealing One Card</string>
+    <string name="game_name_black_widow">Black Widow</string>
+    <string name="game_name_tarantula">Tarantula</string>
+    <string name="game_name_spider">Spider</string>
+    <string name="game_name_tripeaks">TriPeaks</string>
+</resources>

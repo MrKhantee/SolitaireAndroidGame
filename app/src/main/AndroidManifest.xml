@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.romiezone.solitirePirate"
+    android:versionCode="580"
+    android:versionName="2.5">
+
+    <uses-sdk android:minSdkVersion="4" />
+    <application
+        android:icon="@drawable/cardback_176x256"
+        android:label="@string/app_name">
+        <activity
+            android:name="com.romiezone.solitirePirate.SolitaireCG"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest> 
